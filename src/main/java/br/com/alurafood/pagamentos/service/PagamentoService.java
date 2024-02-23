@@ -47,7 +47,7 @@ public class PagamentoService {
         return modelMapper.map(pagamento, PagamentoDto.class);
     }
 
-    public void excluirOagamento(Long id) {
+    public void excluirPagamento(Long id) {
         pagamentoRepository.deleteById(id);
     }
 }
